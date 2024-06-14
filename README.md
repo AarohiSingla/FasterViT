@@ -3,4 +3,5 @@
 Tutorial:https://youtu.be/0Xc3qQeZlIU
 
 Paper: https://arxiv.org/pdf/2306.06189
+
 Ofiicial Github Repo: https://github.com/NVlabs/FasterViT
