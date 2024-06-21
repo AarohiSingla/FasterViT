@@ -10,3 +10,45 @@
 #### Ofiicial Github Repo: https://github.com/NVlabs/FasterViT
 
 #### Paper: https://arxiv.org/pdf/2306.06189
+
+
+#### This code is tested on python 3.11
+
+#### python.exe -m pip install --upgrade pip
+
+#### pip install fastervit>=0.9.8
+
+#### Get requirements.txt from here:   https://github.com/NVlabs/FasterViT/blob/main/requirements.txt
+
+#### pip install -r requirements.txt
+
+#### pip install matplotlib
+
+#### pip install opencv-python
+
+#### Create a tmp folder where pretrained model will be downloaded.
+
+A pretrained FasterViT model with default hyper-parameters can be created as in:
+
+>>> from fastervit import create_model
+
+# Define fastervit-0 model with 224 x 224 resolution
+
+>>> model = create_model('faster_vit_0_224', 
+                          pretrained=True,
+                          model_path="/tmp/faster_vit_0.pth.tar")
+
+A pretrained FasterViT model with default hyper-parameters can be created as in:
+
+>>> from fastervit import create_model
+
+# Define fastervit-0 model with 224 x 224 resolution
+
+>>> model = create_model('faster_vit_0_224', 
+                          pretrained=True,
+                          model_path="/tmp/faster_vit_0.pth.tar")
+
+
+
+
+##### model_path is used to set the directory to download the model.
