@@ -12,21 +12,21 @@
 #### Paper: https://arxiv.org/pdf/2306.06189
 
 #### Environment setup: 
-          #### This code is tested on python 3.11
+          This code is tested on python 3.11
           
-          #### python.exe -m pip install --upgrade pip
+          python.exe -m pip install --upgrade pip
           
-          #### pip install fastervit>=0.9.8
+          pip install fastervit>=0.9.8
           
-          #### Get requirements.txt from here:   https://github.com/NVlabs/FasterViT/blob/main/requirements.txt
+          # Get requirements.txt from here:   https://github.com/NVlabs/FasterViT/blob/main/requirements.txt
           
-          #### pip install -r requirements.txt
+          pip install -r requirements.txt
           
-          #### pip install matplotlib
+          pip install matplotlib
           
-          #### pip install opencv-python
+          pip install opencv-python
           
-          #### Create a tmp folder where pretrained model will be downloaded.
+          # Create a tmp folder where pretrained model will be downloaded.
 
 A pretrained FasterViT model with default hyper-parameters can be created as in:
 
