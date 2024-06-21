@@ -30,21 +30,21 @@
 
 A pretrained FasterViT model with default hyper-parameters can be created as in:
 
->>> from fastervit import create_model
+from fastervit import create_model
 
-# Define fastervit-0 model with 224 x 224 resolution
+Define fastervit-0 model with 224 x 224 resolution
 
->>> model = create_model('faster_vit_0_224', 
+ model = create_model('faster_vit_0_224', 
                           pretrained=True,
                           model_path="/tmp/faster_vit_0.pth.tar")
 
 A pretrained FasterViT model with default hyper-parameters can be created as in:
 
->>> from fastervit import create_model
+from fastervit import create_model
 
-# Define fastervit-0 model with 224 x 224 resolution
+ Define fastervit-0 model with 224 x 224 resolution
 
->>> model = create_model('faster_vit_0_224', 
+model = create_model('faster_vit_0_224', 
                           pretrained=True,
                           model_path="/tmp/faster_vit_0.pth.tar")
 
